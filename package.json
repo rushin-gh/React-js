@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Learning React.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushin-gh/React-js.git"
+  },
+  "author": "Rushikesh Naikwadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushin-gh/React-js/issues"
+  },
+  "homepage": "https://github.com/rushin-gh/React-js#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
