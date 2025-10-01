@@ -28,14 +28,21 @@ import { jsx } from "react/jsx-runtime";
 const Title = () => <h1>User profile</h1>;
 
 const FunComp = () => {
+  const user = {
+    name: "Rushi",
+    age: 24,
+    gender: "M",
+    Qualification: "BE (Comp)",
+  };
+
   return (
     <>
       <Title />
       <div>
-        <div>Name : Rushi</div>
-        <div>Age : 24</div>
-        <div>Gender : Male</div>
-        <div>Qualification : BE (Computer)</div>
+        <div>Name : {user.name}</div>
+        <div>Age : {user.age}</div>
+        <div>Gender : {user.gender}</div>
+        <div>Qualification : {user.Qualification}</div>
       </div>
     </>
   );
